@@ -1,5 +1,5 @@
 class Raindrop{
-    constructor(){
+    constructor(color){
 
          var options={
             restitution:1.0
