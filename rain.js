@@ -26,7 +26,7 @@ class Raindrop{
             Matter.Body.setVelocity(this.body,{x: 0, y:10});
         }       
         rectMode(CENTER);
-        fill("blue");
+        fill(this.color);
         rect(pos.x,pos.y,this.w,this.h);
         
     }
